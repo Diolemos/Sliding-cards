@@ -22,6 +22,7 @@ body{
     margin: 10px;
     position: relative;
     transition: flex 0.7s ease-in;
+    border: 1px solid red;
 }
 
 .panel h3{
@@ -33,11 +34,13 @@ body{
     opacity: 0;
 }
 .panel.active{
-    flex:5
+    flex:5;
+    
+
+    background-size:40vh auto;
+    background-size: cover;
 }
-.panel.active h3{
-    opacity: 1;
-}
+
 
 @media (max-width: 480px) {
     .container{
@@ -71,3 +74,10 @@ background-size: ; */
 #vanicebeach{
     background-image: url("images/vanice-beach.jpg");
 }
+
+.panel.active h3{
+    opacity: 1;
+    
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
