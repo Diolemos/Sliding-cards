@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,800;1,300;1,400;1,700;1,800&display=swap');
+
 body{
     display: flex;
     align-items: center;
@@ -5,6 +7,7 @@ body{
     height: 100vh;
     overflow: hidden;
     margin: 0;
+
 }
 .container{
     display: flex;
@@ -79,5 +82,11 @@ background-size: ; */
     opacity: 1;
     
     transition: opacity 0.3s ease-in 0.4s;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
 }
 
+.panel#mariscal h3{
+    color: rgb(54, 31, 3);
+}
